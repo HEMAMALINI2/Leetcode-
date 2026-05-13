@@ -13,7 +13,7 @@ public class MainClass {
         if(Character.isLetterOrDigit(a) && (a+"")!=null){
             rev+=a+"";
         }
-        if(Character.isLetter(b) && (b+"")!=null){
+        if(Character.isLetterOrDigit(b) && (b+"")!=null){
            l+=b+"";
           }
         j++;
