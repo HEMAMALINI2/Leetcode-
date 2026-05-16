@@ -1,5 +1,4 @@
-import java.lang.String;
-public class MainClass {
+public class Problem125 {
   public static void main(String[] args) {
     String s="1b1";
     String l="";
@@ -21,5 +20,6 @@ public class MainClass {
        if(l.equals(rev)){
         ans=true;
        }
+       System.out.println(ans);
   }
 }
